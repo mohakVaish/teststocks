@@ -65,6 +65,8 @@ st.text(" ")
 u = st.number_input("Enter Unemployment Rate")
 st.text(" ")
 
+
+
 if st.button("Predict"):
     st.subheader("Predicted Value of Stock Index ")
     st.text(lr.predict([[e,u]])[0])
