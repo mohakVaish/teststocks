@@ -67,6 +67,7 @@ st.text(" ")
 
 
 
+
 if st.button("Predict"):
     st.subheader("Predicted Value of Stock Index ")
     st.text(lr.predict([[e,u]])[0])
